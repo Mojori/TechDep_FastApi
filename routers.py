@@ -5,7 +5,7 @@ from fastapi import APIRouter
 from sqlalchemy.orm import Session
 from sqlalchemy import select
 
-from db_alcjimy import engine, User
+from database import engine, User
 
 from schema import TrainSchema, PersonSchema, GetFromName
 
